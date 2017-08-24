@@ -42,6 +42,7 @@ create table warrants_returned(
 
 INSERT INTO plaintiffs (name) VALUES ('Medical Recovery Services') ON CONFLICT (NAME) DO NOTHING;
 INSERT INTO plaintiffs (name) VALUES ('Bonneville Billing') ON CONFLICT (NAME) DO NOTHING;
+INSERT INTO plaintiffs (name) VALUES ('Diversified Equity Systems') ON CONFLICT (NAME) DO NOTHING;
 
 
 
