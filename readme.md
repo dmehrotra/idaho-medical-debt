@@ -1,6 +1,7 @@
-Medical Reocvery Fuckers
+Medical Recovery Fuckers
 =========
 
+Medical Recovery Services are a debt recovery company in Idaho that has been seeking to jail people for medical debt...sometimes the debt is less than 100 dollars. 
 
 requirements for collection:
 
@@ -41,43 +42,6 @@ Notes
 
 * for x in ./data/raw/*; do python parse.py "$x" ; done \ns;
 
-Visualization
-=============
 
-
-
-TODO
-====
-
- * split paths at the "dateline" LINESTRING(-179.9 85, -179.9 -85,
-   179.9 -85, 179.9 85) before emitting them, to avoid weird wrap in
-   flat projections -- but st_difference() only takes geom, and not
-   geog.
- 
- * think more clearly about how to associate TTL and lag with
-   plausibility in the traceroute story
-
- * understand why there's such a big gap between sent/recvd on the
-   scapy packets
-
- * consider proximity matches between plausible hops and cable joints
-
- * look for "tromboning" routes that leave the US and then return to it
-
- * enhance maxmind geoip db with custom knowledge about WM infrastructure
-   puppet:manifests/network.pp has a list of info.
-
- * if a peer never got any responses at all from some traceback
-   attempt, should we try it again?  should we record how many tries
-   we've done?
- 
- * get airport and other location codes with geographic info, build table:
-   http://www.unece.org/cefact/codesfortrade/codes_index.html
-   http://www.unece.org/fileadmin/DAM/cefact/locode/loc142cvs.zip
-
- * visualize cables some other way -- e.g. by choosing their centroid
-   and connecting it to all landing points
-
- * visualize all us/canada and us/mexico links.
 
 
