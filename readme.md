@@ -1,4 +1,4 @@
-Medical Recovery Fuckers
+Medical Recovery Services
 =========
 
 Medical Recovery Services are a debt recovery company in Idaho that has been seeking to jail people for medical debt. These are some scripts to collect and parse Idaho court records for Body of Attachments ( arrest warrants ) 
